@@ -169,7 +169,7 @@ section{
 }
 .btn-box{
     display: flex;
-    justify-content: space-between;
+    justify-content: Center;
     width: 340px;
     height: 45px;
 }
@@ -187,7 +187,6 @@ section{
     transition: .6s;
     box-shadow: var(--neon-box-shadow);
     border-radius: 7%;
-    position: relative; overflow: hidden;
     z-index: 1;
     border: 2px solid var(--hover-color);
 }
